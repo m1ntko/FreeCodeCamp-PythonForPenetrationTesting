@@ -11,7 +11,7 @@ port = 444
 
 clientsocket.connect(('192.168.1.56', port))
 
-# Max of data we are goint to accept
+# Max of data we are going to accept
 message = clientsocket.recv(1024)
  
 clientsocket.close()
